@@ -72,6 +72,9 @@ const RecipesList = () => {
       <Link to="/">
         <button>Home</button>{' '}
       </Link>
+      <Link to="/create">
+        <button>Create</button>{' '}
+      </Link>
       <button onClick={() => setShowFavorites(!showFavorites)} type="button">
         {showFavorites ? 'all' : 'show favorite'}
       </button>

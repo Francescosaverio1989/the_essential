@@ -5,6 +5,7 @@ import Cart from './components/cart/cart';
 import Contact from './pages/Contact/Contact';
 import Login from './pages/Login/Login';
 import UserProvider from './components/contexts/UsersProvides';
+import Create from './pages/create/create';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ const App = () => (
           <Route path="/cart" element={<Cart />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/create" element={<Create />} />
         </Routes>
       </div>
     </UserProvider>
