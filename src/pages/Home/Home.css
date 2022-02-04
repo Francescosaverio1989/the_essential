@@ -1,0 +1,26 @@
+.home-main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 4rem;
+  padding-top: 205px;
+  padding-bottom: 55px;
+}
+
+.photo {
+  padding-left: 250px;
+  height: 250px;
+}
+.text {
+  padding-left: 75px;
+  padding-top: 35px;
+  font-family: 'Lobster', cursive;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 25px;
+  height: 30px;
+  padding: 0 10px;
+  font-family: 'Lobster', cursive;
+}

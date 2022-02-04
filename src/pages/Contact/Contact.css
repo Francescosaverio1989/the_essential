@@ -1,0 +1,132 @@
+.main-contact {
+  display: flex;
+  margin: 7rem 0;
+}
+
+.lightgreen-bloc {
+  min-height: 100%;
+  min-width: 30%;
+  padding-right: 50px;
+  margin-right: 150px;
+}
+
+.contactform {
+  padding: 0 2rem;
+  min-width: 70%;
+}
+
+.h2-contact {
+  color:  rgba(156, 154, 154, 0.959);
+  font-size: 3.5rem;
+}
+
+.p-contact {
+  color:   rgba(156, 154, 154, 0.959);
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+
+.form-entry,
+.form-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform label,
+.form-suggestion h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem 2rem 0.5rem 0;
+  line-height: 2;
+  color:  rgba(156, 154, 154, 0.959);
+  font-weight: bold;
+  font-size: 1, 5rem;
+}
+
+.contactform input {
+  background:  rgba(156, 154, 154, 0.959);
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: 5px 5px 4px rgba(20, 94, 140, 0.25);
+}
+
+.contactform textarea {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid  rgba(156, 154, 154, 0.959);
+  box-shadow: 5px 5px 4px rgba(20, 94, 140, 0.25);
+}
+
+.contactform input::placeholder {
+  color: white;
+}
+
+.contactform textarea::placeholder {
+  color: rgba(156, 154, 154, 0.959);
+}
+
+.contactform input {
+  min-width: 40%;
+  max-width: fit-content;
+}
+
+.form-entry div {
+  display: flex;
+  align-items: baseline;
+}
+.form-suggestion {
+  display: flex;
+}
+.form-suggestion input {
+  min-width: auto;
+}
+
+
+.contactform textarea {
+  width: 80%;
+  min-height: 150px;
+  max-height: fit-content;
+}
+
+.contactform button {
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  width: 6rem;
+  background:rgba(156, 154, 154, 0.959);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 4px rgba(20, 94, 140, 0.25);
+}
+
+.contactform button:hover {
+  background-color:rgba(156, 154, 154, 0.959);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.check {
+  color: rgba(156, 154, 154, 0.959);
+  padding: 5%;
+}
+
+#p-yup {
+  color: tomato;
+}
+
+#p-yup::before {
+  display: inline;
+  content: '⚠';
+}
+
+@media screen and (max-width: 768px) {
+  .lightgreen-bloc {
+    display: none;
+  }
+}
+.form-suggestion {
+  display: flex;
+  flex-direction: column;
+}

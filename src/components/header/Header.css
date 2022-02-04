@@ -1,0 +1,14 @@
+.home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.home.logo {
+  height: 80px;
+  width: 250px;
+  padding-bottom: 100px;
+}

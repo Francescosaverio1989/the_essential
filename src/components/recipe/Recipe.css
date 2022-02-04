@@ -1,0 +1,38 @@
+.card {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  column-width: 10em;
+  column-rule: 1px solid rgb(75, 70, 74);
+}
+
+.picture {
+  width: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.card-title {
+  padding: 1rem;
+}
+
+.card-description {
+  padding: 0 1rem;
+}
+
+.card-button {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid grey;
+  background: transparent;
+  border-radius: 10px;
+}

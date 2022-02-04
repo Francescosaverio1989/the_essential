@@ -1,0 +1,57 @@
+.logo {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height: 280px;
+}
+
+.Login input[type='email'],
+.Login input[type='password'] {
+  width: 120%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: 10px 10px 10px rgba(20, 94, 140, 0.25);
+}
+
+.Login button[type='submit'] {
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  width: 4rem;
+  background: #145e8c;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 5px 5px 4px rgba(20, 94, 140, 0.25);
+}
+
+.fas.fa-user-astronaut {
+  font-size: 50px !important;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login form label {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+}
