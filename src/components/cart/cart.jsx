@@ -62,10 +62,6 @@ const RecipesList = () => {
       setFavorites([...favorites, id]);
     }
   };
-  const [expanded, setExpanded] = useState(false);
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
 
   return (
     <>
@@ -74,6 +70,12 @@ const RecipesList = () => {
       </Link>
       <Link to="/create">
         <button>Create</button>{' '}
+      </Link>
+      <Link to="/recipe">
+        <button>Recipe</button>{' '}
+      </Link>
+      <Link to="/contact">
+        <button>Contact</button>{' '}
       </Link>
       <button onClick={() => setShowFavorites(!showFavorites)} type="button">
         {showFavorites ? 'all' : 'show favorite'}
@@ -99,7 +101,13 @@ const RecipesList = () => {
                 ) : (
                   <FaRegHeart onClick={() => handleFavorite(recipe.id)} />
                 )}
-                <button>Recipe</button>
+                <button
+                  className="button-description"
+                  onClick={() => navigator(`/recipes/${recipes.id}`)}
+                >
+                  {' '}
+                  Details
+                </button>
               </CardText>
             </Card>
           ))}
